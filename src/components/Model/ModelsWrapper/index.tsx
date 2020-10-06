@@ -1,4 +1,4 @@
-import React, { useCallback, useRef, useState } from 'react';
+import React, { useCallback, useRef, useState } from 'react'
 import ModelContext, { CarModel } from '../ModelContext'
 import { Container, OverlaysRoot } from './styles'
 import ModelOverlay from '../ModelOverlay'
@@ -40,7 +40,7 @@ const ModelsWrapper: React.FC = ({children}) => {
         {children}
       </Container>
     </ModelContext.Provider>
-  );
-};
+  )
+}
 
-export default ModelsWrapper;
+export default ModelsWrapper

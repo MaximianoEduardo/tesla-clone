@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react';
-import useModel from '../useModel';
-import { Container } from './styles';
+import React, { useEffect, useRef } from 'react'
+import useModel from '../useModel'
+import { Container } from './styles'
 
 interface Props extends React.HTMLAttributes<HTMLDivElement>{
   modelName: string,
@@ -28,7 +28,7 @@ const ModelSection: React.FC<Props> = ({
     <Container ref={sectionRef} {...props}>
       {children}
     </Container>
-  );
-};
+  )
+}
 
-export default ModelSection;
+export default ModelSection

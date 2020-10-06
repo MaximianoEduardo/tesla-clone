@@ -1,9 +1,9 @@
-import { useTransform } from 'framer-motion';
-import React, { useCallback, useLayoutEffect, useState } from 'react';
-import { CarModel } from '../ModelContext';
-import useWrapperScroll from '../useWrapperScroll';
+import { useTransform } from 'framer-motion'
+import React, { useCallback, useLayoutEffect, useState } from 'react'
+import { CarModel } from '../ModelContext'
+import useWrapperScroll from '../useWrapperScroll'
 
-import { Container } from './styles';
+import { Container } from './styles'
 
 interface Props{
   model: CarModel
@@ -56,7 +56,7 @@ const ModelOverlay: React.FC<Props> = ({model, children}) => {
     <Container style={{opacity, pointerEvents}}>
       {children}
     </Container>
-  );
-};
+  )
+}
 
-export default ModelOverlay;
+export default ModelOverlay
